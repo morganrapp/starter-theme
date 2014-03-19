@@ -11,14 +11,6 @@ Tags: one-column, two-column, full-width-template, custom menu
 Text Domain: starter-theme
 */
 
-<section id="primary" role="main">
-
-    <?php if ( have_posts() ) : ?>
-        <!-- there IS content for this query -->
-
-    <?php else : ?>
-        <!-- there IS NOT content for this query -->
-
-    <?php endif; ?>
-
-</section><!-- #primary -->
+body {
+    background: #f2f2f2;
+}
