@@ -1,0 +1,24 @@
+/*
+Theme Name: Starter Theme
+Theme URI: https://github.com/zoerooney/
+Author: October Ink
+Author URI: http://octoberink.com/
+Description: This is a starter theme for custom projects.
+Version: 0.1
+License: The MIT License (MIT)
+License URI: http://opensource.org/licenses/MIT
+Tags: one-column, two-column, full-width-template, custom menu
+Text Domain: starter-theme
+*/
+
+<section id="primary" role="main">
+
+    <?php if ( have_posts() ) : ?>
+        <!-- there IS content for this query -->
+
+    <?php else : ?>
+        <!-- there IS NOT content for this query -->
+
+    <?php endif; ?>
+
+</section><!-- #primary -->
